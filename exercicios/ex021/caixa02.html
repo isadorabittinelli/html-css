@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(206, 196, 196, 0.639);
+            margin: 0px;
+        }
+        header{
+            background-color: rgba(143, 172, 241, 0.317);
+            margin: 10px;
+            padding: 10px;
+        }
+        main{
+            background-color: rgba(156, 175, 224, 0.826);
+            margin: 10px;
+            padding: 10px;
+            border-radius: 20px;
+        }
+        footer{
+            background-color: rgba(166, 193, 223, 0.418);
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+        article{
+            background-color: rgba(175, 187, 210, 0.664);
+            padding: 5px;
+            box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.381);
+            border-radius: 10px;
+        }
+        article > aside{
+            background-color: rgba(137, 136, 151, 0.365);
+        }
+        nav{ 
+            background-color: rgba(143, 145, 171, 0.635);
+            padding: 3px;
+            text-align: right;
+            box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.381);
+        }
+        nav > a{
+            text-decoration: none;
+            font-weight: bold;
+            color: white;
+            margin-left: 30px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link1</a>
+            <a href="#">Link2</a>
+            <a href="#">Link3</a>
+            <a href="#">Link4</a>
+        </nav>
+    </header>
+    <main>
+        <section  id="assuntos">
+            <p>Triatoma Rhodnius Panstrongylus</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre Triatomíneos</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat dolores odio necessitatibus non! Assumenda atque reiciendis id velit provident? Libero, sint obcaecati quasi quas quia fugiat illo quos doloribus cum?</p>
+                <aside>
+                    <p>Artigo escrito escrito por Luiza Grzyb</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Isadora Bittinelli</p>
+    </footer>
+    <div id="bola">
+        
+    </div>
+</body>
+</html>
